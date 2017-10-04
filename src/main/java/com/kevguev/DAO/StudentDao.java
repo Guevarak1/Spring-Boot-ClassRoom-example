@@ -17,6 +17,8 @@ public interface StudentDao {
 
     Course retrieveCourse(String studentId, String courseId);
 
+    List<String> retrieveGrades(String studentId);
+
     //post
     void insertStudent(Student student);
 

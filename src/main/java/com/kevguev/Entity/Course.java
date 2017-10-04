@@ -8,6 +8,16 @@ public class Course {
     private String description;
     private List<String> steps;
 
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+
+    private String grade;
+
     public String getId() {
         return id;
     }
@@ -42,10 +52,11 @@ public class Course {
 
     public Course(){}
 
-    public Course(String id, String name, String description, List<String> steps) {
+    public Course(String id, String name, String description, List<String> steps, String grade) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.steps = steps;
+        this.grade = grade;
     }
 }

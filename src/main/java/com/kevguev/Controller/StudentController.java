@@ -41,6 +41,12 @@ public class StudentController {
                                            @PathVariable String courseId) {
         return studentService.retrieveCourse(studentId, courseId);
     }
+
+    @GetMapping("/{studentId}/courses/grades")
+    public List<String> retrieveGradesForCourses(@PathVariable String studentId){
+        return studentService.retrieveGrades(studentId);
+    }
+
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public void insertStudent(@RequestBody Student student){
         studentService.insertStudent(student);

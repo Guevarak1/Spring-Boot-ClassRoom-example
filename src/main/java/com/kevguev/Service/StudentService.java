@@ -50,4 +50,8 @@ public class StudentService {
     public Course addCourse(String studentId, Course newCourse) {
         return this.fakeStudentDaoImpl.addCourse(studentId, newCourse);
     }
+
+    public List<String> retrieveGrades(String studentId) {
+        return this.fakeStudentDaoImpl.retrieveGrades(studentId);
+    }
 }

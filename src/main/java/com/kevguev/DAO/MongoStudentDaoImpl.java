@@ -33,6 +33,11 @@ public class MongoStudentDaoImpl implements StudentDao{
     }
 
     @Override
+    public List<String> retrieveGrades(String studentId) {
+        return null;
+    }
+
+    @Override
     public void insertStudent(Student student) {
 
     }

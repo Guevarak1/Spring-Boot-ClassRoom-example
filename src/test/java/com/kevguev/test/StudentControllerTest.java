@@ -44,10 +44,10 @@ public class StudentControllerTest {
 
     Course mockCourse = new Course("Course1", "Spring", "10 Steps",
             Arrays.asList("Learn Maven", "Import Project", "First Example",
-                    "Second Example"));
+                    "Second Example"),"A+");
     Course mockCourse2 = new Course("Course2", "Spring", "10 Steps",
             Arrays.asList("Learn Maven", "Import Project", "First Example",
-                    "Second Example"));
+                    "Second Example"),"B-");
 
     List<Course> mockCourses = new ArrayList<Course>();
 
@@ -121,7 +121,7 @@ public class StudentControllerTest {
     @Test
     public void createStudentCourse() throws Exception {
         Course mockCourse = new Course("1", "Smallest Number", "1",
-                Arrays.asList("1", "2", "3", "4"));
+                Arrays.asList("1", "2", "3", "4"),"B");
 
         // studentService.addCourse to respond back with mockCourse
         Mockito.when(

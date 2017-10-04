@@ -17,17 +17,17 @@ public class FakeStudentDaoImpl implements StudentDao {
     static {
         Course course1 = new Course("Course1", "Spring", "10 Steps", Arrays
                 .asList("Learn Maven", "Import Project", "First Example",
-                        "Second Example"));
+                        "Second Example"), "A+");
         Course course2 = new Course("Course2", "Spring MVC", "10 Examples",
                 Arrays.asList("Learn Maven", "Import Project", "First Example",
-                        "Second Example"));
+                        "Second Example"), "B-");
         Course course3 = new Course("Course3", "Spring Boot", "6K Students",
                 Arrays.asList("Learn Maven", "Learn Spring",
-                        "Learn Spring MVC", "First Example", "Second Example"));
+                        "Learn Spring MVC", "First Example", "Second Example"), "C");
         Course course4 = new Course("Course4", "Maven",
                 "Most popular maven course on internet!", Arrays.asList(
                 "Pom.xml", "Build Life Cycle", "Parent POM",
-                "Importing into Eclipse"));
+                "Importing into Eclipse"), "A");
 
         Student student1 = new Student("AAAAA", "Kevin","CompSci", new ArrayList<>(Arrays
                 .asList(course1,course2,course3,course4)));
@@ -91,6 +91,17 @@ public class FakeStudentDaoImpl implements StudentDao {
             }
         }
         return null;
+    }
+
+    @Override
+    public List<String> retrieveGrades(String studentId) {
+        List<Course> courses = retrieveCourses(studentId);
+        List<String> grades = new ArrayList<>();
+
+        for (Course course: courses){
+            grades.add(course.getGrade());
+        }
+        return grades;
     }
 
     @Override
