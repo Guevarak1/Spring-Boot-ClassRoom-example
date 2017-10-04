@@ -5,9 +5,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.kevguev.Controller.StudentController;
 import com.kevguev.Entity.Course;
 import com.kevguev.Entity.Student;
+import com.kevguev.Service.CourseService;
+import com.kevguev.Service.GradesService;
 import com.kevguev.Service.StudentService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +44,12 @@ public class StudentControllerTest {
 
     @MockBean
     private StudentService studentService;
+
+    @MockBean
+    private GradesService gradesService;
+
+    @MockBean
+    private CourseService courseService;
 
     Course mockCourse = new Course("Course1", "Spring", "10 Steps",
             Arrays.asList("Learn Maven", "Import Project", "First Example",
@@ -84,7 +93,7 @@ public class StudentControllerTest {
 
     @Test
     public void retrieveDetailsForCourse() throws Exception{
-        Mockito.when(studentService.retrieveCourse(Mockito.anyString(),Mockito.anyString()))
+        Mockito.when(courseService.retrieveCourse(Mockito.anyString(),Mockito.anyString()))
                 .thenReturn(mockCourse);
         RequestBuilder requestBuilder = MockMvcRequestBuilders
                 .get("/students/1/courses/Course1")
@@ -103,7 +112,7 @@ public class StudentControllerTest {
         mockCourses.add(mockCourse);
         mockCourses.add(mockCourse2);
         Mockito.when(
-                studentService.retrieveCourses(Mockito.anyString()))
+                courseService.retrieveCourses(Mockito.anyString()))
                 .thenReturn(mockCourses);
         RequestBuilder requestBuilder = MockMvcRequestBuilders
                 .get("/students/1/courses")
@@ -125,7 +134,7 @@ public class StudentControllerTest {
 
         // studentService.addCourse to respond back with mockCourse
         Mockito.when(
-                studentService.addCourse(Mockito.anyString(),
+                courseService.addCourse(Mockito.anyString(),
                         Mockito.any(Course.class))).thenReturn(mockCourse);
 
         // Send course as body to /students/1/courses

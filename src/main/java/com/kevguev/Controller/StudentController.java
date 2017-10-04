@@ -2,6 +2,8 @@ package com.kevguev.Controller;
 
 import com.kevguev.Entity.Course;
 import com.kevguev.Entity.Student;
+import com.kevguev.Service.CourseService;
+import com.kevguev.Service.GradesService;
 import com.kevguev.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -20,6 +22,10 @@ public class StudentController {
 
     @Autowired
     private StudentService studentService;
+    @Autowired
+    private GradesService gradesService;
+    @Autowired
+    private CourseService courseService;
 
     @GetMapping()
     public HashMap<String, Student> retrieveAllStudents(){
@@ -33,18 +39,18 @@ public class StudentController {
 
     @GetMapping(value = "/{studentId}/courses")
     public List<Course> retrieveCoursesForStudent(@PathVariable String studentId){
-        return studentService.retrieveCourses(studentId);
+        return courseService.retrieveCourses(studentId);
     }
 
     @GetMapping("/{studentId}/courses/{courseId}")
     public Course retrieveDetailsForCourse(@PathVariable String studentId,
                                            @PathVariable String courseId) {
-        return studentService.retrieveCourse(studentId, courseId);
+        return courseService.retrieveCourse(studentId, courseId);
     }
 
     @GetMapping("/{studentId}/courses/grades")
     public List<String> retrieveGradesForCourses(@PathVariable String studentId){
-        return studentService.retrieveGrades(studentId);
+        return gradesService.retrieveGrades(studentId);
     }
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
@@ -56,7 +62,7 @@ public class StudentController {
     public ResponseEntity<Void> registerStudentForCourse(
             @PathVariable String studentId, @RequestBody Course newCourse) {
 
-        Course course = studentService.addCourse(studentId, newCourse);
+        Course course = courseService.addCourse(studentId, newCourse);
 
         if (course == null)
             return ResponseEntity.noContent().build();

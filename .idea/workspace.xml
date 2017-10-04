@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="030f5b2f-84d9-4246-a3ac-a6fd488a8682" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/Service/CourseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/Service/GradesService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kevguev/Controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/Controller/StudentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/FakeStudentDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/FakeStudentDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/MongoStudentDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/MongoStudentDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/StudentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/StudentDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kevguev/Entity/Course.java" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/Entity/Course.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kevguev/Service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/kevguev/Service/StudentService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/kevguev/test/StudentControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/kevguev/test/StudentControllerTest.java" />
     </list>
@@ -22,87 +20,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kevguev/test/StudentControllerTest.java">
+      <file leaf-file-name="GradesService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Service/GradesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1510">
-              <caret line="131" column="62" lean-forward="true" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
+            <state relative-caret-position="63">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding>
-                <element signature="e#1455#1483#0" expanded="false" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="44" />
               <folding>
-                <element signature="method#registerStudentForCourse#0;class#StudentController#0" expanded="false" />
+                <element signature="e#1951#1952#0" expanded="true" />
+                <element signature="e#2004#2005#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoStudentDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/DAO/MongoStudentDaoImpl.java">
+      <file leaf-file-name="CourseService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Service/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+            <state relative-caret-position="336">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1561#1562#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FakeStudentDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/DAO/FakeStudentDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Entity/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Entity/Course.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="17" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,6 +84,8 @@
       <find>int</find>
       <find>courses</find>
       <find>{studentId}/courses</find>
+      <find>courseser</find>
+      <find>grades</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,13 +105,15 @@
         <option value="$PROJECT_DIR$/src/test/java/StudentControllerTest.java" />
         <option value="C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kevguev/test/StudentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Entity/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/FakeStudentDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kevguev/DAO/MongoStudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Service/GradesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Service/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kevguev/Controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kevguev/test/StudentControllerTest.java" />
       </list>
     </option>
   </component>
@@ -227,33 +181,6 @@
               <item name="kevguev" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kevguev" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kevguev" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kevguev" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -267,7 +194,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="SearchEverywhereHistoryKey" value="studentcontr&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;cours&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Entity/Course.java&#10;controller&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;studentcontro&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;studentcontroll&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;fake&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/DAO/FakeStudentDaoImpl.java&#10;studentc&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java" />
+    <property name="SearchEverywhereHistoryKey" value="controller&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;coursese&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Service/CourseService.java&#10;studentcontr&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;cours&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Entity/Course.java&#10;studentcontro&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;studentcontroll&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java&#10;fake&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/DAO/FakeStudentDaoImpl.java&#10;studentc&#9;FILE&#9;file://C:/Users/Kevin Guevara/IdeaProjects/springBoot/src/main/java/com/kevguev/Controller/StudentController.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -559,7 +486,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -570,7 +497,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25887266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25885418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -605,7 +532,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1455#1483#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2330#2338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -642,8 +570,6 @@
           <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -653,7 +579,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1455#1483#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2330#2338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -747,33 +674,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kevguev/test/StudentControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1510">
-          <caret line="131" column="62" lean-forward="true" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
-          <folding>
-            <element signature="e#1455#1483#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/DAO/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,12 +701,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kevguev/test/StudentControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2330#2338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Service/GradesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="44" />
           <folding>
-            <element signature="method#registerStudentForCourse#0;class#StudentController#0" expanded="false" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kevguev/Service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

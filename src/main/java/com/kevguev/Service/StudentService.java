@@ -39,19 +39,4 @@ public class StudentService {
         this.fakeStudentDaoImpl.insertStudent(student);
     }
 
-    public List<Course> retrieveCourses(String id) {
-        return this.fakeStudentDaoImpl.retrieveCourses(id);
-    }
-
-    public Course retrieveCourse(String studentId, String courseId) {
-        return this.fakeStudentDaoImpl.retrieveCourse(studentId, courseId);
-    }
-
-    public Course addCourse(String studentId, Course newCourse) {
-        return this.fakeStudentDaoImpl.addCourse(studentId, newCourse);
-    }
-
-    public List<String> retrieveGrades(String studentId) {
-        return this.fakeStudentDaoImpl.retrieveGrades(studentId);
-    }
 }
